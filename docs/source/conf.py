@@ -17,6 +17,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    # Workaround for sphinx-rtd-theme issue
+    # https://github.com/readthedocs/sphinx_rtd_theme/issues/1452
+    'sphinxcontrib.jquery',
 ]
 
 intersphinx_mapping = {
